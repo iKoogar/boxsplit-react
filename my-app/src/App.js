@@ -18,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <Button variant="outline-danger">Danger</Button>{' '}
       </header>
     </div>
   );
