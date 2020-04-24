@@ -3,8 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import Button from 'react-bootstrap/Button'
 
-function clicked(){
-    alert('Clicked');
+function exportWithObjectId() {
+  alert('Just to be sure! objectID inside .ejs: ');
 }
 
 function App() {
@@ -23,8 +23,7 @@ function App() {
         >
           Learn React
         </a>
-        <Button onclick = "clicked()" >Danger</Button>
-      </header>
+        <button type="button" class="btn btn-success" onclick="exportWithObjectId()">Export to csv</button>      </header>
     </div>
   );
 }
