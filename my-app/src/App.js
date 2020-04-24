@@ -3,6 +3,10 @@ import logo from './logo.svg';
 import './App.css';
 import Button from 'react-bootstrap/Button'
 
+clicked(){
+    alert('Clicked')
+}
+
 function App() {
   return (
     <div className="App">
@@ -19,7 +23,7 @@ function App() {
         >
           Learn React
         </a>
-        <Button onclick = {alert('Clicked')} variant="outline-danger">Danger</Button>{' '}
+        <Button onclick = {clicked()} variant="outline-danger">Danger</Button>{' '}
       </header>
     </div>
   );
