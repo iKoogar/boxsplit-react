@@ -19,7 +19,7 @@ function App() {
         >
           Learn React
         </a>
-        <Button onClick = {alert('Clicked')} variant="outline-danger">Danger</Button>{' '}
+        <Button onclick = {alert('Clicked')} variant="outline-danger">Danger</Button>{' '}
       </header>
     </div>
   );
