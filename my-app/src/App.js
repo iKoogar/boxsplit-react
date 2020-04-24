@@ -23,7 +23,7 @@ function App() {
         >
           Learn React
         </a>
-        <Button type="Button" class="btn btn-success" onClick={exportWithObjectId()} >Export to csv</Button>      </header>
+        <Button type="Button" className="btn btn-success" onClick={exportWithObjectId()} >Export to csv</Button>      </header>
     </div>
   );
 }
