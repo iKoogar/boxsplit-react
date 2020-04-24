@@ -23,7 +23,7 @@ function App() {
         >
           Learn React
         </a>
-        <Button onclick = "clicked()" variant="outline-danger">Danger</Button>{' '}
+        <Button onclick = "clicked()" >Danger</Button>
       </header>
     </div>
   );
