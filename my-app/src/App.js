@@ -23,7 +23,7 @@ function App() {
         >
           Learn React
         </a>
-        <button type="button" class="btn btn-primary">Primary</button>
+        <Button variant="warning">Warning</Button>{' '}
         </header>
     </div>
   );
