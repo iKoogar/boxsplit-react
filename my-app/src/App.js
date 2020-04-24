@@ -23,7 +23,9 @@ function App() {
         >
           Learn React
         </a>
-        <button type="button" class="btn btn-primary">Primary</button>    </div>
+        <button type="button" class="btn btn-primary">Primary</button>
+        </header>
+    </div>
   );
 }
 
