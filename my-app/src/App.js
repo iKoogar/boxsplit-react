@@ -4,7 +4,7 @@ import './App.css';
 import Button from 'react-bootstrap/Button'
 
 function clicked(){
-    alert('Clicked')
+    alert('Clicked');
 }
 
 function App() {
