@@ -22,6 +22,10 @@ function App() {
           <a href="#">search</a>
         </li>
 
+        <li className="center">
+          <a href="#">boxsplit</a>
+        </li>
+
         <li className="right">
           <a href="#"><FiLogOut/></a>
         </li>
@@ -33,7 +37,6 @@ function App() {
         <li className="right">
           <a href="#"><FaUserAlt/></a>
         </li>
-
 
       </ul>
       <header className="App-header">
