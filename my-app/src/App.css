@@ -53,21 +53,16 @@
 .right {
   float: right;
 }
-.buttons a {
+.buttons a, .right a {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
-.right a{
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-.buttons a:hover {
+
+.buttons a:hover, .right a:hover {
   background-color: #778899;
   color: aliceblue;
 }
+
