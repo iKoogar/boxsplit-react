@@ -50,6 +50,9 @@
 .buttons {
   float: left;
   color: #D3D3D3;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 .right {
   float: right;
@@ -76,6 +79,8 @@
   background-color: #778899;
   color: aliceblue;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+}
+
+.right:hover, .dropcontent{
+  display:block;
 }
