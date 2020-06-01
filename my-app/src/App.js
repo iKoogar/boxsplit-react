@@ -2,8 +2,9 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Button from 'react-bootstrap/Button';
-import { FaBars } from 'react-icons/fa';
+import { BsFillGearFill } from 'react-icons/bs';
 import { FaUserAlt } from 'react-icons/fa';
+import { FiLogOut } from 'react-icons/fi';
 
 function exportWithObjectId() {
   alert('Just to be sure! objectID inside .ejs: ');
@@ -22,13 +23,18 @@ function App() {
         </li>
 
         <li className="right">
-          <a href="#"><FaBars/></a>
+          <a href="#"><FiLogOut/></a>
+        </li>
+
+        <li className="right">
+          <a href="#"><BsFillGearFill/></a>
         </li>
 
         <li className="right">
           <a href="#"><FaUserAlt/></a>
         </li>
-        
+
+
       </ul>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
