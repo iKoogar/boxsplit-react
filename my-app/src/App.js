@@ -22,7 +22,7 @@ function App() {
           <a href="#">search</a>
         </li>
 
-        <li className="center">
+        <li className="buttons">
           <a href="#">boxsplit</a>
         </li>
 
