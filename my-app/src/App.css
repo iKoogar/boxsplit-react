@@ -45,7 +45,7 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  position: absolute;
+  position: fixed;
 }
 
 .buttons {
@@ -53,12 +53,12 @@
   color: #D3D3D3;
   text-align: center;
 }
-.dropdown{
+.right{
   float: right;
   text-align: center;
   color: #D3D3D3;
 }
-.buttons a, .dropbutn  {
+.buttons a, .right a{
   display: inline-block;
   color: white;
   text-align: center;
@@ -67,33 +67,12 @@
   text-decoration: none;
 }
 
-.buttons a:hover, .dropdown:hover .dropbutn{
+.buttons a:hover, .right a:hover{
   background-color: #778899;
   color: aliceblue;
 }
 
-.dropdown{
+.right{
   display: inline-block;
   text-align: center;
-}
-
-.dropcontent{
-  display: none;
-  position: absolute;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-.dropcontent a{
-  color:white;
-  padding:12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-.dropcontent a:hover{
-  background-color: #778899;
-}
-.dropdown:hover .dropcontent{
-  display:block;
 }

@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Button from 'react-bootstrap/Button';
 import { FaBars } from 'react-icons/fa';
+import { FaUserAlt } from 'react-icons/fa';
 
 function exportWithObjectId() {
   alert('Just to be sure! objectID inside .ejs: ');
@@ -15,19 +16,19 @@ function App() {
         <li className="buttons">
           <a href="#">home</a>
         </li>
+
         <li className="buttons">
           <a href="#">search</a>
         </li>
 
-        <li className="dropdown">
-          <a href="javascript:void(0)" className="dropbutn"><FaBars/></a>
-          <div className="dropcontent">
-            <a href="#">profile</a>
-            <a href="#">settings</a>
-            <a href="#">logout</a>
-          </div>
+        <li className="right">
+          <a href="#"><FaBars/></a>
         </li>
 
+        <li className="right">
+          <a href="#"><FaUserAlt/></a>
+        </li>
+        
       </ul>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
