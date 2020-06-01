@@ -14,7 +14,7 @@ function App() {
         <li className="buttons">
           <a href="#">home</a>
         </li>
-        <li className="buttons">
+        <li className="right">
           <a href="#">profile</a>
         </li>
       </ul>

@@ -38,6 +38,7 @@
 }
 
 .navbar {
+  list-style-type: none;
   position: fixed;
   top: 0;
   width: 100%;
@@ -49,8 +50,10 @@
 .buttons {
   float: left;
 }
-
-.buttons a {
+.right {
+  float: right;
+}
+.buttons .right a {
   display: block;
   color: white;
   text-align: center;
