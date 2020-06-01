@@ -71,8 +71,6 @@
 .dropdown{
   display: inline-block;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
 }
 
 .dropcontent{
@@ -92,6 +90,6 @@
 .dropcontent a:hover{
   background-color: #778899;
 }
-.dropdown:hover, .dropcontent{
+.dropdown:hover .dropcontent{
   display:block;
 }
