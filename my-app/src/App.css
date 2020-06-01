@@ -39,13 +39,9 @@
 
 .navbar {
   list-style-type: none;
-  position: fixed;
   top: 0;
   width: 100%;
   background-color: #000000;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
 }
 
 .buttons {
