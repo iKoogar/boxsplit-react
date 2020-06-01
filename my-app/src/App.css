@@ -48,12 +48,16 @@
   overflow: hidden;
 }
 
-.buttons, .dropdown {
+.buttons {
   float: left;
   color: #D3D3D3;
   text-align: center;
 }
-
+.dropdown{
+  float: right;
+  text-align: center;
+  color: #D3D3D3;
+}
 .buttons a, .dropbutn  {
   display: inline-block;
   color: white;
