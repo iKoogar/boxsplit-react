@@ -60,7 +60,7 @@
   float: right;
 }
 
-.buttons a:hover, .right:hover, .dropbutn{
+.buttons a:hover, .right:hover .dropbutn{
   background-color: #778899;
   color: aliceblue;
 }
