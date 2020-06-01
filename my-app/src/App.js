@@ -20,7 +20,12 @@ function App() {
           <a href="#">search</a>
         </li>
         <li className="right">
-          <a href="#"><FaBars/></a>
+          <a href="javascript:void(0)" className="dropbutn"><FaBars/></a>
+          <div className="dropcontent">
+            <a href="#">profile</a>
+            <a href="#">settings</a>
+            <a href="#">logout</a>
+          </div>
         </li>
       </ul>
       <header className="App-header">
