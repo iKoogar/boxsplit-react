@@ -12,7 +12,6 @@ function App() {
   return (
     <div className="App">
       <ul className="navbar">
-        <li className="buttons">boxsplit</li>
         <li className="buttons">
           <a href="#">home</a>
         </li>
