@@ -19,7 +19,8 @@ function App() {
         <li className="buttons">
           <a href="#">search</a>
         </li>
-        <li className="right">
+
+        <li className="dropdown">
           <a href="javascript:void(0)" className="dropbutn"><FaBars/></a>
           <div className="dropcontent">
             <a href="#">profile</a>
@@ -27,6 +28,7 @@ function App() {
             <a href="#">logout</a>
           </div>
         </li>
+
       </ul>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
