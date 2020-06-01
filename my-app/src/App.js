@@ -1,7 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Button from 'react-bootstrap/Button'
+import Button from 'react-bootstrap/Button';
+import { FaBars } from 'react-icons/fa';
 
 function exportWithObjectId() {
   alert('Just to be sure! objectID inside .ejs: ');
@@ -11,11 +12,15 @@ function App() {
   return (
     <div className="App">
       <ul className="navbar">
+        <li className="buttons">boxsplit</li>
         <li className="buttons">
           <a href="#">home</a>
         </li>
+        <li className="buttons">
+          <a href="#">search</a>
+        </li>
         <li className="right">
-          <a href="#">profile</a>
+          <a href="#"><FaBars/></a>
         </li>
       </ul>
       <header className="App-header">
