@@ -74,6 +74,9 @@
 
 .right{
   display: inline-block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .dropcontent{
@@ -85,7 +88,6 @@
 }
 .dropcontent a{
   color:white;
-  padding: 12px 16px;
   display: block;
   text-align: left;
 }
