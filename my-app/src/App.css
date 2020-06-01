@@ -59,12 +59,7 @@
   color: #D3D3D3;
 }
 
-.center{
-  text-align: center;
-  color: #D3D3D3;
-}
-
-.buttons a, .right a, .center a{
+.buttons a, .right a{
   display: inline-block;
   color: white;
   text-align: center;
@@ -73,7 +68,7 @@
   text-decoration: none;
 }
 
-.buttons a:hover, .right a:hover, .center a:hover{
+.buttons a:hover, .right a:hover{
   background-color: #778899;
   color: aliceblue;
 }
