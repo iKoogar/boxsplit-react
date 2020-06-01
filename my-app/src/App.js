@@ -10,6 +10,14 @@ function exportWithObjectId() {
 function App() {
   return (
     <div className="App">
+      <ul className="navbar">
+        <li className="buttons">
+          <a href="#">home</a>
+        </li>
+        <li className="buttons">
+          <a href="#">profile</a>
+        </li>
+      </ul>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -25,14 +33,6 @@ function App() {
         </a>
         <Button onClick={() => exportWithObjectId()}>Show Toast</Button>
         </header>
-      <ul>
-        <li>
-          <a href="#">home</a>
-        </li>
-        <li>
-          <a href="#">profile</a>
-        </li>
-      </ul>
     </div>
   );
 }

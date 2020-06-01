@@ -37,17 +37,20 @@
   }
 }
 
-ul {
+.navbar {
   position: fixed;
   top: 0;
   width: 100%;
   background-color: #000000;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
-li {
+.buttons {
   float: left;
 }
 
-li a {
+.buttons a {
   display: block;
   color: white;
   text-align: center;
@@ -55,6 +58,7 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+.buttons a:hover {
   background-color: #778899;
+  color: aliceblue;
 }
