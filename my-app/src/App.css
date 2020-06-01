@@ -43,6 +43,9 @@
   top: 0;
   width: 100%;
   background-color: #000000;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 .buttons {
@@ -57,7 +60,6 @@
   display: inline-block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
 }
 
