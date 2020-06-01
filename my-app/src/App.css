@@ -58,6 +58,13 @@
   text-align: center;
   color: #D3D3D3;
 }
+
+.center{
+  float:center;
+  text-align: center;
+  color: #D3D3D3;
+}
+
 .buttons a, .right a, .center a{
   display: inline-block;
   color: white;
@@ -67,7 +74,7 @@
   text-decoration: none;
 }
 
-.buttons a:hover, .right a:hover, .center a{
+.buttons a:hover, .right a:hover, .center a:hover{
   background-color: #778899;
   color: aliceblue;
 }
@@ -75,8 +82,4 @@
 .right{
   display: inline-block;
   text-align: center;
-}
-
-.center{
-  float:center;
 }
