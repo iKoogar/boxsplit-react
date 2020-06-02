@@ -57,10 +57,17 @@ function App() {
               <td>
                 <pre>
                   1. You search for your desired items.
-                  2. Once you find the desired split, let the seller know that you want to buy desired item.
-                  3. If the seller agrees to sell to you, then you can proceed with payments.
-                  We are not responsible for any lose of money. The transactions that happen on this site will be between you and the seller only. 
                 </pre>
+                <pre>
+                  2. Once you find the desired split, let the seller know that you want to buy desired item.
+                </pre>
+                <pre>
+                  3. If the seller agrees to sell to you, then you can proceed with payments.
+                </pre>
+                <pre>
+                We are not responsible for any lose of money. The transactions that happen on this site will be between you and the seller only. 
+                </pre>
+                
               </td>
             </tr>
           </table>
