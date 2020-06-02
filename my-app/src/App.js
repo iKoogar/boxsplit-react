@@ -7,7 +7,7 @@ import { FaUserAlt } from 'react-icons/fa';
 import { FiLogOut } from 'react-icons/fi';
 
 function exportWithObjectId() {
-  alert('Just to be sure! objectID inside .ejs: ');
+  alert(fetch(`/api/users`));
 }
 
 function App() {
