@@ -35,15 +35,10 @@ function App() {
         </li>
 
         <li className="right">
-          <a href="#profile"><FaUserAlt/></a>
+          <a href="#"><FaUserAlt/></a>
         </li>
 
       </ul>
-      
-      <header>
-        <Button onClick={() => exportWithObjectId()}>Show Toast</Button>
-      </header>
-        
     </div>
   );
 }
