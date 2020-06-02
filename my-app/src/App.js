@@ -43,7 +43,6 @@ function App() {
       </div>
       <div className="body">
         <header>
-          <Button onClick={() => exportWithObjectId()}>Show Toast</Button>
           <table className="tble">
             <tr>
               <th>What is BoxSplit?</th>
@@ -63,6 +62,7 @@ function App() {
               </td>
             </tr>
           </table>
+          <Button onClick={() => exportWithObjectId()}>Show Toast</Button>
         </header>
       </div>
     </div>
