@@ -43,23 +43,26 @@ function App() {
       </div>
       <div className="body">
         <header>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur facilisis nunc at 
-            imperdiet. Quisque interdum, massa vel semper euismod, libero quam lobortis lacus, a bibendum 
-            sapien diam eget nibh. Fusce elementum nec diam et consequat. Donec condimentum arcu at arcu 
-            commodo dignissim. Mauris porttitor euismod erat sed luctus. Nunc malesuada mi faucibus mauris 
-            accumsan, eu luctus velit mattis. Cras id hendrerit odio. Mauris egestas, nibh id blandit accumsan, 
-            mi enim dignissim turpis, sed lacinia sapien turpis nec velit. Donec fringilla nibh sit amet mauris
-            pellentesque sagittis. Aliquam et venenatis lacus. Sed facilisis ac ex non congue. Cras ligula dui, 
-            sodales ut consectetur et, bibendum sit amet lorem. Morbi sed ullamcorper diam, quis consectetur 
-            orci. Aenean sollicitudin mattis mauris.
-            Sed sed augue volutpat felis mollis auctor. Ut ac ipsum quis turpis suscipit ullamcorper et a metus. 
-            Phasellus metus erat, gravida nec magna eu, convallis mattis magna. Nullam ut lacinia nulla, nec 
-            accumsan arcu. Sed congue diam eu ipsum vulputate, quis semper metus fermentum. Vestibulum magna sem, 
-            ultricies ut diam nec, commodo mollis purus. In volutpat urna eget urna rutrum, in elementum orci 
-            fringilla. Pellentesque pretium sem erat, id egestas nibh porta a. Cras sit amet lorem dolor.
-          </p>
           <Button onClick={() => exportWithObjectId()}>Show Toast</Button>
+          <table className="tble">
+            <tr>
+              <th>What is BoxSplit?</th>
+              <th>How does it work?</th>
+            </tr>
+            <tr>
+              <td>
+                BoxSplit is a site where people who buy items in sets, can sell those items as a 'split'.
+                People who likes to buy in these 'splits' finds it easier and cheaper to buy these items can
+                come onto this site and buy it off of there. 
+              </td>
+              <td>
+                1. You search for your desired items.
+                2. Once you find the desired split, let the seller know that you want to buy desired item.
+                3. If the seller agrees to sell to you, then you can proceed with payments.
+                We are not responsible for any lose of money. The transactions that happen on this site will be between you and the seller only. 
+              </td>
+            </tr>
+          </table>
         </header>
       </div>
     </div>
