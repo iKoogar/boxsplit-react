@@ -62,3 +62,10 @@
   width: 100%;
   color: aliceblue;
 }
+tr{
+  width: 350px;
+}
+td, th{
+  text-align: center;
+  color: aliceblue;
+}
