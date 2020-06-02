@@ -42,6 +42,9 @@ function App() {
         </ul>
       </div>
       <div className="body">
+        <h1 className="title">
+          boxsplit
+        </h1>
         <header>
           <table className="tble">
             <tr>
