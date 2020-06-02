@@ -41,7 +41,7 @@ function App() {
 
         </ul>
       </div>
-      <div className="App">
+      <div className="body">
         <header>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur facilisis nunc at 
