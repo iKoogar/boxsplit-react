@@ -59,12 +59,23 @@ function App() {
                   2. Once you find the desired split, let the seller know that you want to buy desired item.<br/>
                   3. If the seller agrees to sell to you, then you can proceed with payments.<br/>
                   <i>
-                    We are not responsible for any lose of money. The transactions that happen on this site will be between you and the seller only.  
+                    We are not responsible for any loss of money. The transactions that happen on this site will be between you and the seller only.  
                   </i>
               </td>
             </tr>
           </table>
           <Button onClick={() => exportWithObjectId()}>Show Toast</Button>
+          <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie, mauris id condimentum 
+          hendrerit, mauris turpis aliquet dolor, et pretium dolor orci et nulla. Proin in finibus enim.
+          Ut tincidunt, tellus ut posuere tristique, odio orci condimentum mi, id dignissim arcu sapien 
+          eget magna. Vivamus blandit at lacus vitae ornare. Aliquam blandit orci quis orci lacinia 
+          dapibus. Vivamus eget tellus non ex condimentum dapibus mattis eu risus. Aliquam eget felis ut 
+          ipsum tincidunt elementum a rhoncus arcu. Nulla molestie et ante at porta. Duis scelerisque odio 
+          nec lorem bibendum, eget porttitor mauris ultrices. Ut euismod sollicitudin neque, vestibulum 
+          semper risus gravida et. Donec luctus dui et ex rutrum, ac lobortis sem mattis. Curabitur 
+          placerat, nisl at pellentesque lobortis, metus lorem dictum dolor, vel dictum elit urna in lorem. Etiam a velit a mauris pellentesque molestie.
+          </p>
         </header>
       </div>
     </div>
