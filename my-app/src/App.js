@@ -50,7 +50,7 @@ function App() {
             </tr>
             <tr>
               <td>
-                BoxSplit is a site where people who buy items in sets, can sell those items as a 'split'.
+                BoxSplit is a site where people who buy items in sets, can sell those items as a 'split'.<br/>
                 People who likes to buy in these 'splits' finds it easier and cheaper to buy these items can
                 come onto this site and buy it off of there. 
               </td>
@@ -58,7 +58,9 @@ function App() {
                   1. You search for your desired items.<br/>
                   2. Once you find the desired split, let the seller know that you want to buy desired item.<br/>
                   3. If the seller agrees to sell to you, then you can proceed with payments.<br/>
-                  We are not responsible for any lose of money. The transactions that happen on this site will be between you and the seller only.  
+                  <i>
+                    We are not responsible for any lose of money. The transactions that happen on this site will be between you and the seller only.  
+                  </i>
               </td>
             </tr>
           </table>
