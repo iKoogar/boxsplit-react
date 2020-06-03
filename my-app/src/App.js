@@ -7,7 +7,7 @@ import { FaUserAlt } from 'react-icons/fa';
 import { FiLogOut } from 'react-icons/fi';
 
 function exportWithObjectId() {
-  alert(fetch(`50.116.50.126:8000/user_test`));
+  alert(fetch(`/api/users`));
 }
 
 function App() {
@@ -55,28 +55,28 @@ function App() {
               <td>
                 BoxSplit is a site where people who buy items in sets, can sell those items as a 'split'.<br/>
                 People who likes to buy in these 'splits' finds it easier and cheaper to buy these items can
-                come onto this site and buy it off of there. 
+                come onto this site and buy it off of there.
               </td>
               <td>
                   1. You search for your desired items.<br/>
                   2. Once you find the desired split, let the seller know that you want to buy desired item.<br/>
                   3. If the seller agrees to sell to you, then you can proceed with payments.<br/>
                   <i>
-                    We are not responsible for any loss of money. The transactions that happen on this site will be between you and the seller only.  
+                    We are not responsible for any loss of money. The transactions that happen on this site will be between you and the seller only.
                   </i>
               </td>
             </tr>
           </table>
           <Button onClick={() => exportWithObjectId()}>Show Toast</Button>
           <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie, mauris id condimentum 
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie, mauris id condimentum
           hendrerit, mauris turpis aliquet dolor, et pretium dolor orci et nulla. Proin in finibus enim.
-          Ut tincidunt, tellus ut posuere tristique, odio orci condimentum mi, id dignissim arcu sapien 
-          eget magna. Vivamus blandit at lacus vitae ornare. Aliquam blandit orci quis orci lacinia 
-          dapibus. Vivamus eget tellus non ex condimentum dapibus mattis eu risus. Aliquam eget felis ut 
-          ipsum tincidunt elementum a rhoncus arcu. Nulla molestie et ante at porta. Duis scelerisque odio 
-          nec lorem bibendum, eget porttitor mauris ultrices. Ut euismod sollicitudin neque, vestibulum 
-          semper risus gravida et. Donec luctus dui et ex rutrum, ac lobortis sem mattis. Curabitur 
+          Ut tincidunt, tellus ut posuere tristique, odio orci condimentum mi, id dignissim arcu sapien
+          eget magna. Vivamus blandit at lacus vitae ornare. Aliquam blandit orci quis orci lacinia
+          dapibus. Vivamus eget tellus non ex condimentum dapibus mattis eu risus. Aliquam eget felis ut
+          ipsum tincidunt elementum a rhoncus arcu. Nulla molestie et ante at porta. Duis scelerisque odio
+          nec lorem bibendum, eget porttitor mauris ultrices. Ut euismod sollicitudin neque, vestibulum
+          semper risus gravida et. Donec luctus dui et ex rutrum, ac lobortis sem mattis. Curabitur
           placerat, nisl at pellentesque lobortis, metus lorem dictum dolor, vel dictum elit urna in lorem. Etiam a velit a mauris pellentesque molestie.
           </p>
         </header>
