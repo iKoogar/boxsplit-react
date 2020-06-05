@@ -8,7 +8,6 @@ import { FiLogOut } from 'react-icons/fi';
 
 function exportWithObjectId() {
   fetch(`50.116.50.126:8000/user_test`)
-  .then(response => response.json())
   .then(data => console.log(data));
 
 }
