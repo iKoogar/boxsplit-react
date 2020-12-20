@@ -7,13 +7,8 @@ import { FaUserAlt } from 'react-icons/fa';
 import { FiLogOut } from 'react-icons/fi';
  
 function exportWithObjectId() {
-<<<<<<< HEAD
   fetch(`50.116.50.126:8000/user_test`)
   .then(data => console.log(data));
-
-=======
-  alert(fetch(`/api/users`));
->>>>>>> 91fd6e6ea66bf19623522373a19f4a4b5dfd99fb
 }
 //asasdfasdfasdf
 function App() {
