@@ -10,7 +10,7 @@ function exportWithObjectId() {
   fetch(`50.116.50.126:8000/user_test`)
   .then(data => console.log(data));
 }
-//asasdfasdfasdf
+
 function App() {
   return (
     <div>
